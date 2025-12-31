@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "mirror-kt/textlint-plugin-rustdoc"
+      "repo": "mirror-kt/textlint-plugin-kdoc"
     }
   ],
   "commit": false,

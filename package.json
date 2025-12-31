@@ -21,7 +21,7 @@
   "keywords": [
     "textlintplugin"
   ],
-  "repository": "https://github.com/mirror-kt/textlint-plugin-kdoc!",
+  "repository": "https://github.com/mirror-kt/textlint-plugin-kdoc",
   "author": "Kano Misato <me@mirror-kt.dev>",
   "license": "MIT",
   "packageManager": "pnpm@10.26.2",
