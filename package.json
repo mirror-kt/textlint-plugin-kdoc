@@ -1,0 +1,44 @@
+{
+  "name": "@mirror-kt/textlint-plugin-kdoc",
+  "version": "0.1.0",
+  "description": "textlint plugin to support kdoc",
+  "type": "module",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "test": "tsx --test",
+    "format": "biome format --write .",
+    "lint": "biome lint --write .",
+    "build": "tsc --noEmit && tsup-node",
+    "release": "pnpm run build && changeset publish"
+  },
+  "keywords": [
+    "textlintplugin"
+  ],
+  "repository": "https://github.com/mirror-kt/textlint-plugin-kdoc!",
+  "author": "Kano Misato <me@mirror-kt.dev>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.26.2",
+  "dependencies": {
+    "@keqingmoe/tree-sitter": "^0.26.2",
+    "tree-sitter-kotlin": "^0.3.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.10",
+    "@changesets/changelog-github": "^0.5.2",
+    "@changesets/cli": "^2.29.8",
+    "@textlint/ast-node-types": "^15.5.0",
+    "@textlint/ast-tester": "^15.5.0",
+    "@textlint/types": "^15.5.0",
+    "@types/node": "^25.0.3",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
