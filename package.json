@@ -24,7 +24,6 @@
   "repository": "https://github.com/mirror-kt/textlint-plugin-kdoc",
   "author": "Kano Misato <me@mirror-kt.dev>",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.2",
   "dependencies": {
     "@keqingmoe/tree-sitter": "^0.26.2",
     "tree-sitter-kotlin": "^0.3.8"
@@ -41,5 +40,6 @@
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "pnpm@10.26.2"
 }
