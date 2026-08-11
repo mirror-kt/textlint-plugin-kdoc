@@ -7,7 +7,7 @@ import type {
   TextlintPluginProcessor,
 } from "@textlint/types";
 import KotlinLanguage from "tree-sitter-kotlin";
-import { convertToTextlintAst } from "./comment.js";
+import { convertToTextlintAst } from "./comment.ts";
 
 // KDocコメントを抽出するクエリ
 // マルチラインコメントを全て取得し、後でKDocかどうかをフィルタリング
