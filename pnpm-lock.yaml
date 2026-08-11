@@ -26,7 +26,7 @@ importers:
         version: 2.31.1(@types/node@25.0.3)
       '@textlint/ast-node-types':
         specifier: ^15.5.0
-        version: 15.5.0
+        version: 15.8.0
       '@textlint/ast-tester':
         specifier: ^15.5.0
         version: 15.5.0
