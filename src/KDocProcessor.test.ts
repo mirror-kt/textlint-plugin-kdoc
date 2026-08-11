@@ -6,7 +6,7 @@ import type {
   TxtParagraphNode,
 } from "@textlint/ast-node-types";
 import { test as testAst } from "@textlint/ast-tester";
-import { KDocProcessor } from "./KDocProcessor.js";
+import { KDocProcessor } from "./KDocProcessor.ts";
 
 const __filename = fileURLToPath(import.meta.url);
 
