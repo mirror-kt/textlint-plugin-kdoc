@@ -160,4 +160,4 @@ export function convertToTextlintAst(
 }
 
 // KDoc用のユーティリティ関数をエクスポート
-export { isKdoc, extractKdocContent };
+export { extractKdocContent, isKdoc };
