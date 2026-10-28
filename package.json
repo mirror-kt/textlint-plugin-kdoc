@@ -36,7 +36,7 @@
     "@textlint/ast-node-types": "^15.5.0",
     "@textlint/ast-tester": "^15.5.0",
     "@textlint/types": "^15.5.0",
-    "@types/node": "^25.0.3",
+    "@types/node": "^26.0.0",
     "node-gyp": "^13.0.0",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
