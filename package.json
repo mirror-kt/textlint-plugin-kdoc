@@ -35,7 +35,7 @@
     "@changesets/cli": "^2.29.8",
     "@textlint/ast-node-types": "^15.5.0",
     "@textlint/ast-tester": "^15.5.0",
-    "@textlint/types": "^15.5.0",
+    "@textlint/types": "^16.0.0",
     "@types/node": "^25.0.3",
     "node-gyp": "^13.0.0",
     "tsup": "^8.5.1",
